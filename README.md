@@ -14,8 +14,7 @@
                                     "('user', 'password', 1, 1), "
                                     "('worker', 'password', 2, 1), "
                                     "('supplier', 'password', 3, 1), "
-                                    "('admin', 'password', 4, 1),"
-                                    "('tianyi', 'password', 1, 0);";
+                                    "('admin', 'password', 4, 1);";
         query.exec(insertAccountsSql);
         // 插入Users表的初始记录
         QString insertUsersSql = "INSERT INTO Users (Full_name, User_name, Email, DOB) VALUES "
