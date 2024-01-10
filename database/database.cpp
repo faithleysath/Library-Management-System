@@ -145,8 +145,7 @@ void Database::createInitialRecords() {
                                     "('user', 'password', 1, 'true'), "
                                     "('worker', 'password', 2, 'true'), "
                                     "('supplier', 'password', 3, 'true'), "
-                                    "('admin', 'password', 4, 'true'),"
-                                    "('tianyi', 'password', 1, 'false');";
+                                    "('admin', 'password', 4, 'true');";
         query.exec(insertAccountsSql);
         // 插入Users表的初始记录
         QString insertUsersSql = "INSERT INTO Users (Full_name, User_name, Email, DOB) VALUES "
