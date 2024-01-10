@@ -4,7 +4,7 @@
     * 用户
     * 图书馆工作人员
     * 供应商
-	* 超级管理员
+    * 超级管理员
     
 * 用户列表
 
@@ -22,9 +22,8 @@
                                  "('用户', 'user', 'user@example.com', '1990-01-01'), "
                                  "('图书管理员', 'worker', 'worker@example.com', '1990-01-02'), "
                                  "('供应商', 'supplier', 'supplier@example.com', '1990-01-03'), "
-                                 "('超级管理员', 'admin', 'admin@example.com', '1990-01-04'), "
-                                 "('吴天一, 'tianyi', '202283250010@nuist.edu.cn', '2003-12-07');";
+                                 "('超级管理员', 'admin', 'admin@example.com', '1990-01-04'); ";
         query.exec(insertUsersSql);
 ```
 
-即`user`、`worker`、`supplier`、`admin`、`tianyi`这五个用户，密码均为`password`
+即`user`、`worker`、`supplier`、`admin`这四个用户，密码均为`password`
